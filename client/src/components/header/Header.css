@@ -1,0 +1,22 @@
+.Header-language-dropdown {
+  height: 48px !important;
+  width: 48px !important;
+}
+
+.Header-language-dropdown label {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Header-language-dropdown label img {
+  height: 26px !important;
+  width: 26px !important;
+}
+
+.Header-dropdown-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
