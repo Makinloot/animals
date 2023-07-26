@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Row from "./components/row/Row";
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Row />
+      <Footer />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Card() {
         />
       </figure>
       <div className="card-body p-2">
-        <h2 className="card-title max-w-full font-helveticaCaps font-normal">
+        <h2 className="card-title line-clamp-1 max-w-full overflow-hidden text-ellipsis font-helveticaCaps font-normal">
           ლეკვები
         </h2>
         <p
