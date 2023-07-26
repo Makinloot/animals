@@ -23,7 +23,6 @@ export default function Card() {
         </p>
         <div className="card-actions items-center justify-end">
           <p className="font-helveticaCaps">150 ₾</p>
-          {/* <button className="btn btn-primary">Buy Now</button> */}
         </div>
       </div>
     </a>

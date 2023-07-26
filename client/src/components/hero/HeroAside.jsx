@@ -6,10 +6,10 @@ export default function HeroAside() {
     const data = Array.from({ length: 12 });
     return data.map((item, i) => (
       <li
-        className="aside-list-item cursor-pointer px-7 py-2 text-neutral-content hover:text-info"
+        className="aside-list-item cursor-pointer text-neutral-content hover:text-info"
         key={i}
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex w-full items-center px-7 py-2">
           <FaCat /> <p className="ml-2">ცხოველები</p>
         </a>
       </li>

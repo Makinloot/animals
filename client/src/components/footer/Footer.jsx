@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="Footer mt-8 bg-neutral px-2 py-8">
       <div className="container">
-        <div className="Footer-wrapper flex justify-center justify-around">
+        <div className="Footer-wrapper flex justify-around text-neutral-content">
           <div className="flex flex-col font-helveticaCaps">
             <h3 className="font-semibold">ნავიგაცია</h3>
             <ul className="mt-3 flex flex-col gap-1 text-sm">
