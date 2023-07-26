@@ -9,7 +9,9 @@ export default function Row() {
     <div className="Row bg-neutral py-8">
       <div className="container">
         <div className="Row-wrapper">
-          <h3 className="mb-2 font-helveticaCaps text-xl">VIP განცხადებები</h3>
+          <h3 className="mb-2 font-helveticaCaps text-xl text-neutral-content">
+            VIP განცხადებები
+          </h3>
           <Swiper
             navigation={true}
             modules={[Navigation]}

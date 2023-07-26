@@ -14,6 +14,7 @@ export default {
   daisyui: {
     themes: [
       {
+        // todo: create your own light theme
         mytheme: {
           primary: "#a991f7",
           secondary: "#f6d860",
