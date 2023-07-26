@@ -1,0 +1,7 @@
+.aside-list-item:first-of-type {
+  padding-top: 2rem;
+}
+
+.aside-list-item:last-of-type {
+  padding-bottom: 2rem;
+}

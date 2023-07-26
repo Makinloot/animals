@@ -30,3 +30,14 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "helvetica-caps";
+  src:
+    url("./assets/fonts/HelveticaNeueLTGEOCaps-55Rmn.woff2") format("woff2"),
+    url("./assets/fonts/HelveticaNeueLTGEOCaps-55Rmn.woff") format("woff"),
+    url("./assets/fonts/HelveticaNeueLTGEOCaps-55Rmn.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
