@@ -17,9 +17,9 @@ export default function HeaderButtons() {
       </button>
 
       {/* login & user */}
-      <button className="btn btn-circle">
+      <a href="/signin" className="btn btn-circle">
         <FaUser size={19} />
-      </button>
+      </a>
 
       {/* change theme button */}
       <button onClick={changeTheme} className="btn btn-circle">

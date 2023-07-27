@@ -1,0 +1,18 @@
+.Card:hover .swiper-button-next,
+.Card:hover .swiper-button-prev {
+  display: flex;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #00000098;
+  height: 24px;
+  transform: translateY(50%);
+  display: none;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 0.8rem;
+  color: white;
+}

@@ -15,7 +15,7 @@ export default function Row() {
           <Swiper
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper"
+            className="mySwiper p-10"
             slidesPerView={4.5}
           >
             <SwiperSlide>

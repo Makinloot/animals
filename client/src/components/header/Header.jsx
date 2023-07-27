@@ -10,9 +10,12 @@ export default function Header() {
       <div className="container">
         <div className="Header-wrapper flex h-20 items-center justify-between px-2 text-lg font-bold capitalize">
           <div className="flex items-center justify-center">
-            <div className="Header-logo bg-base flex items-center justify-center rounded-full bg-base-200 p-3">
+            <a
+              href="/"
+              className="Header-logo flex items-center justify-center rounded-full bg-base-200 p-3"
+            >
               <FaCat size={24} />
-            </div>
+            </a>
             <div className="ml-5">
               <Search />
             </div>

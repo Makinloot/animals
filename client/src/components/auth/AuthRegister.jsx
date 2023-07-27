@@ -38,7 +38,7 @@ export default function AuthRegister() {
         </div>
         <div className="my-8 text-center">
           <p>ხართ რეგისტრირებული ?</p>
-          <a href="#" className="text-info underline">
+          <a href="/signin" className="text-info underline">
             ავტორიზაცია
           </a>
         </div>
